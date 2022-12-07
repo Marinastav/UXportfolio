@@ -1,0 +1,88 @@
+* {
+    font-family: monospace;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+main {
+    padding-top: 60px;
+    margin: 5px; 
+
+}
+#welcome {
+    border: solid plum 6px;
+    background-color: lavender;
+    
+}
+#welcome h2, #welcome p, #contact p, #contact h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    padding: 0;
+}
+h2 {
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.fa {
+    padding: 10px;
+    border: solid #3B5998 2px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+  }
+
+  .fa-linkedin {
+    color: black;;
+    border-radius: 30%;
+  }
+
+ .fa-envelope {
+    border: solid #3B5998 2px;
+    color: black;;
+    border-radius: 30%;
+    padding: 10px;
+    
+ }
+ #contact {
+    border: solid #4A57EB 6px;
+    background-color: lightcyan;
+ }
+ #contact a {
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ #projects {
+    border-left: solid #4A57EB 6px;
+    border-top: solid #4A57EB 6px;
+    border-right: solid plum 6px;
+    border-bottom: solid plum 6px;
+ }
+ figcaption {
+    margin: 20px;
+    font-weight: bold;
+ }
+ .fa-copyright {
+    border:0cm;
+ }
+ footer {
+    text-align: center;
+ }
+ header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+ }
